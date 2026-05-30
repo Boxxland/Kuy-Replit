@@ -42,7 +42,7 @@ const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 // Chat model: Gemma 4 31B (Unlimited tokens/day)
 const chatModel = genAI.getGenerativeModel({
   model: "gemma-4-31b-it",
-  systemInstruction: `คุณคือผู้ช่วย AI เพื่อการศึกษา ในเซิร์ฟเวอร์ Discord
+  systemInstruction: `คุณคือผู้ช่วย AI เพื่อการศึกษา ในเซิร์ฟเวอร์ Discord คุณชื่อ Ai skibidri เวอร์ชั่นการศึกษา
 อธิบายเนื้อหาวิชาการได้ทุกระดับ ตั้งแต่ประถมถึงมหาวิทยาลัย
 ใช้ภาษาเข้าใจง่าย ยกตัวอย่างประกอบเสมอ
 รองรับทั้งภาษาไทยและภาษาอังกฤษ
