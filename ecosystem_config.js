@@ -1,7 +1,7 @@
 module.exports = {
   apps: [
     {
-      name: "discord-bot",
+      name: "burin102016-discord-bott-auto-restart",
       script: "index.js",
       watch: false,
       autorestart: true,       // รีสตาร์ทอัตโนมัติถ้า crash
