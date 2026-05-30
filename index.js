@@ -39,8 +39,8 @@ function clearHistory(key) {
 const genAI = new GoogleGenerativeAI(process.env.GEMINI_API_KEY);
 
 const chatModel = genAI.getGenerativeModel({
-  model: "gemma-3-27b-it",
-  systemInstruction: `คุณคือผู้ช่วย AI เพื่อการศึกษา ในเซิร์ฟเวอร์ Discord
+  model: "gemma-4-27b-it",
+  systemInstruction: `คุณคือผู้ช่วย AI เพื่อการศึกษา ในเซิร์ฟเวอร์ Discord คุณชื่อ Ai skibidri สำหรับ การศึกษา
 อธิบายเนื้อหาวิชาการได้ทุกระดับ ตั้งแต่ประถมถึงมหาวิทยาลัย
 ใช้ภาษาเข้าใจง่าย ยกตัวอย่างประกอบเสมอ
 รองรับทั้งภาษาไทยและภาษาอังกฤษ
